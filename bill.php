@@ -1,6 +1,6 @@
 <?php
 
-$units = readline("Enter Units Consumed: ");
+$units = (int)readline("Enter Units Consumed: ");
 if($units <= 100){
     $bill = 100 * 5;
 }elseif($units <= 200){
