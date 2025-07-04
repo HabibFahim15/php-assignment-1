@@ -1,6 +1,6 @@
 <?php
 
-const FACTOR = 3/5;
+const FACTOR = 9/5;
 const OFFSET = 32;
 
 echo 'Enter your temperature :';
