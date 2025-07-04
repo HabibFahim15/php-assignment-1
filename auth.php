@@ -1,13 +1,13 @@
 <?php 
 
 const USERNAME = 'admin';
-const PASSWORD = 123456;
+const PASSWORD = "1234";
 
 echo 'Enter Username:';
 $Username = readline();
 
 echo 'Enter Password:';
-$Password = (int) readline();
+$Password = readline();
 
 if (empty($Username) || empty($Password)) {
     echo 'Username or Password cannot be empty';
